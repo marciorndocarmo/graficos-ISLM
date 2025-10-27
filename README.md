@@ -6,5 +6,5 @@ Simuladores interativos das políticas monetária e fiscal no modelo IS-LM, dese
 
 ## Acessar Online
 
-- Política Monetária: graficos-islm-pfyybrnekyuedugkxrruvs.streamlit.app
-- Política Fiscal: graficos-islm-tpqvxjcb3ovfyfmc4dbvnw.streamlit.app
+- Política Monetária: graficos-islm-tpqvxjcb3ovfyfmc4dbvnw.streamlit.app
+- Política Fiscal: graficos-islm-pfyybrnekyuedugkxrruvs.streamlit.app
