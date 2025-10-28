@@ -7,21 +7,21 @@ st.set_page_config(layout="wide", page_title="Política Monetária no Modelo IS-
 # ----------------------------------------
 # Componentes da IS
 # ----------------------------------------
-st.sidebar.header("Parâmetros da Curva IS")
+st.sidebar.header("Componentes da Curva IS")
 is_slope = st.sidebar.number_input("Inclinação da IS (em módulo)", value=0.002, step=0.001, format="%.3f")
 is_intercept = st.sidebar.number_input("Intercepto da IS", value=5.0, step=0.1, format="%.2f")
 
 # ----------------------------------------
 # Componentes da LM1
 # ----------------------------------------
-st.sidebar.header("Parâmetros da Curva LM1")
+st.sidebar.header("Componentes da Curva LM1")
 lm1_money = st.sidebar.number_input("Oferta de moeda (LM1)", value=2.0, step=0.1, format="%.2f")
 lm1_slope = st.sidebar.number_input("Inclinação da LM1", value=0.01, step=0.001, format="%.3f")
 
 # ----------------------------------------
 # Componentes da LM2
 # ----------------------------------------
-st.sidebar.header("Parâmetros da Curva LM2")
+st.sidebar.header("Componentes da Curva LM2")
 lm2_money = st.sidebar.number_input("Oferta de moeda (LM2)", value=2.0, step=0.1, format="%.2f")
 lm2_slope = st.sidebar.number_input("Inclinação da LM2", value=0.01, step=0.001, format="%.3f")
 
@@ -131,3 +131,4 @@ st.markdown("""
 Este simulador mostra o efeito da política monetária no equilíbrio entre o mercado de bens (IS) e o mercado monetário (LM).
 Use os controles para alterar os componentes e observar como muda o equilíbrio.
 """)
+
